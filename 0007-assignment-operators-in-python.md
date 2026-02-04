@@ -29,7 +29,7 @@ Python executes `x += 5` as `x = x + 5`.
 | `%=` | `x %= 3`  | `x = x % 3` | Modulus and assigns |
 | `**=` | `x **= 3` | `x = x ** 3` | Exponentiation and assigns |
 | `&=` | `x &= y`  | `x = x & y` | Bitwise AND and assign |
-| `|=` | `x |= y`  | `x = x | y` | Bitwise OR and assign |
+| `!=` | `x != y`  | `x = x | y` | Bitwise OR and assign |
 | `^=` | `x ^= y`  | `x = x ^ y` | Bitwise XOR and assign |
 | `>>=` | `x >>= 2` | `x = x >> 2` | Bitwise right shift and assign |
 | `<<=` | `x <<= 2` | `x = x << 2` | Bitwise left shift and assign |
@@ -376,19 +376,19 @@ print(x)
 
 | Operator | Description | Example | Result |
 |-----------|--------------|----------|---------|
-| `=` | Simple assignment | `x = 10` | `x = 10` |
-| `+=` | Add and assign | `x += 5` | `x = x + 5` |
-| `-=` | Subtract and assign | `x -= 5` | `x = x - 5` |
-| `*=` | Multiply and assign | `x *= 3` | `x = x * 3` |
-| `/=` | Divide and assign | `x /= 3` | `x = x / 3` |
-| `//=` | Floor divide and assign | `x //= 3` | `x = x // 3` |
-| `%=` | Modulus and assign | `x %= 3` | `x = x % 3` |
-| `**=` | Exponentiation and assign | `x **= 2` | `x = x ** 2` |
-| `&=` | Bitwise AND and assign | `x &= y` | `x = x & y` |
-| `|=` | Bitwise OR and assign | `x |= y` | `x = x | y` |
-| `^=` | Bitwise XOR and assign | `x ^= y` | `x = x ^ y` |
-| `>>=` | Right shift and assign | `x >>= 2` | `x = x >> 2` |
-| `<<=` | Left shift and assign | `x <<= 2` | `x = x << 2` |
+| `=`       | Simple assignment       | `x = 10` | `x = 10` |
+| `+=`      | Add and assign          | `x += 5` | `x = x + 5` |
+| `-=`      | Subtract and assign     | `x -= 5` | `x = x - 5` |
+| `*=`      | Multiply and assign     | `x *= 3` | `x = x * 3` |
+| `/=`      | Divide and assign       | `x /= 3` | `x = x / 3` |
+| `//=`     | Floor divide and assign | `x //= 3` | `x = x // 3` |
+| `%=`      | Modulus and assign      | `x %= 3` | `x = x % 3` |
+| `**=`     | Exponentiation and assign | `x **= 2` | `x = x ** 2` |
+| `&=`      | Bitwise AND and assign | `x &= y` | `x = x & y` |
+| `|=`      | Bitwise OR and assign  | `x |= y` | `x = x | y` |
+| `^=`      | Bitwise XOR and assign | `x ^= y` | `x = x ^ y` |
+| `>>=`     | Right shift and assign | `x >>= 2` | `x = x >> 2` |
+| `<<=`     | Left shift and assign | `x <<= 2` | `x = x << 2` |
 
 ---
 
